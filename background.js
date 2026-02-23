@@ -17,7 +17,7 @@ chrome.runtime.onInstalled.addListener(() => {
           ]
         },
         condition: {
-          initiatorDomains: ["udemint.com"],
+          initiatorDomains: ["stream.udemint.com"],
           resourceTypes: ["xmlhttprequest", "media", "script", "font", "image", "stylesheet", "other"]
         }
       },
@@ -31,7 +31,7 @@ chrome.runtime.onInstalled.addListener(() => {
           ]
         },
         condition: {
-          initiatorDomains: ["udemint.com"],
+          initiatorDomains: ["stream.udemint.com"],
           resourceTypes: ["xmlhttprequest", "media"]
         }
       },
@@ -45,7 +45,7 @@ chrome.runtime.onInstalled.addListener(() => {
           ]
         },
         condition: {
-          urlFilter: "||udemint.com^",
+          urlFilter: "||stream.udemint.com^",
           resourceTypes: ["xmlhttprequest", "media"]
         }
       }
